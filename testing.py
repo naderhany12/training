@@ -1,9 +1,7 @@
 x = 6
 y = 7
-print(y)
 def add(x,y):
-    return (x+y)
-
-
-
-    
+    z = x+y
+    return z
+f = add(x,y)
+print(f)
